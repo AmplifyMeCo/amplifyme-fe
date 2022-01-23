@@ -229,15 +229,15 @@ const Signup = () => {
                       </div>
                   <div className="form-checklist">
                       <label htmlFor="gender">
-                      <input id="gender" name="gender" value="Male" type="checkbox" onChange={handleChange} />
+                      <input id="gender" name="gender" value="Male" type="radio" onChange={handleChange} />
                           Male
                       </label>
                       <label htmlFor="gender">
-                      <input id="gender" name="gender" value="Female" type="checkbox" onChange={handleChange} />
+                      <input id="gender" name="gender" value="Female" type="radio" onChange={handleChange} />
                           Female
                       </label>
                       <label htmlFor="gender">
-                      <input id="gender" name="gender" value="Other" type="checkbox" onChange={handleChange} />
+                      <input id="gender" name="gender" value="Other" type="radio" onChange={handleChange} />
                           Other
                       </label>
                   </div>
