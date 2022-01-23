@@ -1,0 +1,116 @@
+.container {
+    display: flex;
+    justify-content:center;
+    height: 100vh;
+    width: 100%;
+}
+
+.wrapper {
+    flex-direction:column;
+    margin: 7.5vh;
+    justify-content: center;
+    align-items: center;
+}
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    border: 1px solid black;
+    width: 600px;
+}
+.form-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px; 
+    margin-bottom: 10px;
+}
+#fname {
+    outline: none;
+    height: 20px;
+    max-width: 300px;
+    padding: 5px;
+
+}
+#lname {
+    outline: none;
+    height: 20px;
+    padding: 5px;
+ 
+}
+.form-bottom {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#organization {
+    margin-bottom: 10px;
+    outline: none;
+    height: 20px;
+    max-width: 300px;
+    padding: 7px;
+    width: 300px;
+}
+
+#email {
+    margin-bottom: 10px;
+    outline: none;
+    height: 20px;
+    padding: 7px;
+    width: 300px;
+}
+
+#password {
+    outline: none;
+    height: 20px;
+    padding: 7px;
+    width: 300px;
+}
+label {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.label {
+    display: flex;
+    font-size: 12px;
+    justify-content:flex-start;
+    width: 300px;
+}
+.form-select{
+    display: flex;
+    max-width: 300px;
+    width: 300px;
+    justify-content: flex-start;
+}
+
+select {
+    display: flex;
+    margin-right: 80px;
+}
+
+.form-checklist {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 300px;
+    justify-content:space-between;
+    flex-direction: row;
+}
+
+input[type="checkbox"]{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+}
+
+button {
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 150px;
+}
