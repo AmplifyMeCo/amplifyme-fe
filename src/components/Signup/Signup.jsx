@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Signup.css';
+import './styles.css';
 
 const Signup = () => {
     const [form, setForm] = useState({
@@ -18,7 +18,6 @@ const Signup = () => {
             ...form,
             [e.target.name]: e.target.value
         })
-        console.log(form)
     }
 
   return (
@@ -44,7 +43,7 @@ const Signup = () => {
                       </div>
                   <div className="form-select">
                       <select name="mm" id="mm" onChange={handleChange}>
-                          <option value="" selected disabled hidden>MM</option>
+                          <option defaultValue>MM</option>
                           <option value="01">01</option>
                           <option value="02">02</option>
                           <option value="03">03</option>
@@ -59,7 +58,7 @@ const Signup = () => {
                           <option value="12">12</option>
                       </select>
                       <select name="dd" id="dd" onChange={handleChange} >
-                          <option value="" selected disabled hidden>DD</option>
+                          <option defaultValue>DD</option>
                           <option value="01">01</option>
                           <option value="02">02</option>
                           <option value="03">03</option>
@@ -98,7 +97,7 @@ const Signup = () => {
                           <option value="31">31</option>
                       </select>
                       <select name="yyyy" id="yyyy" onChange={handleChange}>
-                          <option value="" selected defaultValue>YYYY</option>
+                          <option defaultValue>YYYY</option>
                           <option value="1900">1900</option>
                           <option value="1901">1901</option>
                           <option value="1902">1902</option>
@@ -229,15 +228,15 @@ const Signup = () => {
                       </div>
                   <div className="form-checklist">
                       <label htmlFor="gender">
-                      <input id="gender" name="gender" value="Male" type="radio" onChange={handleChange} />
+                      <input id="male" name="gender" value="Male" type="radio" onChange={handleChange} />
                           Male
                       </label>
                       <label htmlFor="gender">
-                      <input id="gender" name="gender" value="Female" type="radio" onChange={handleChange} />
+                      <input id="female" name="gender" value="Female" type="radio" onChange={handleChange} />
                           Female
                       </label>
                       <label htmlFor="gender">
-                      <input id="gender" name="gender" value="Other" type="radio" onChange={handleChange} />
+                      <input id="other" name="gender" value="Other" type="radio" onChange={handleChange} />
                           Other
                       </label>
                   </div>
