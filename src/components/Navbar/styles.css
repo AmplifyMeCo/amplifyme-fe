@@ -2,6 +2,7 @@ nav {
     display: flex;
     align-items: center;
     /* justify-content:space-around; */
+    position: sticky;
     max-height: 100px;
     min-height: 100px;
     border-bottom: 2px solid lightgrey;
