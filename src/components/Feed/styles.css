@@ -1,0 +1,38 @@
+.post-user {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-bottom: none;
+    width: 500px;
+    height: 60px;
+}
+
+.post-vid {
+    border: 1px solid black;
+    height: 500px;
+    width: 500px;
+    object-fit: contain;
+    border-bottom: none;
+}
+
+.post-desc {
+    border: 1px solid black;
+    height: 100px;
+    width: 500px;
+}
+.desc {
+    padding: 10px;
+}
+.avatar {
+    width: 48px;
+    height: 48px;
+}
+.icon {
+    padding: 30px 10px 20px;
+}
+
+video {
+    object-fit: cover;
+    width: 500px;
+    height: 500px;
+}
