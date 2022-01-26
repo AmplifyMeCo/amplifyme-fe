@@ -1,11 +1,13 @@
 import './App.css';
+import Navbar from './components/Navbar/Navbar.jsx';
 import { Routes, Route, Link } from 'react-router-dom';
 import Signup from './components/Signup/Signup';
 
 function App() {
   return (
-    <div className="App">
-    </div>
+    <header>
+      <Navbar />
+    </header>
 
   );
 }

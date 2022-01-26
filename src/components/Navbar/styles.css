@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+    align-items: center;
+    /* justify-content:space-around; */
+    max-height: 100px;
+    min-height: 100px;
+    border-bottom: 2px solid lightgrey;
+}
+.logo {
+    padding: 20px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: flex-start;
+}
+h1 {
+    font-size: 32px;
+}
+ul {
+    display: flex;
+    width: 90%;
+    margin-right: 100px;
+    justify-content: flex-end;
+}
+li {
+    display: flex;
+    padding: 20px;
+    cursor: pointer;
+}
