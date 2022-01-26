@@ -6,9 +6,13 @@ import Feed from './components/Feed/Feed.jsx';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './index.css';
 import App from './App';
+import Navbar from './components/Navbar/Navbar.jsx';
 
 ReactDOM.render(
   <Router>
+    <header>
+      <Navbar />
+    </header>
     <Routes>
       <Route exact path="/" element={<App />} />
       <Route exact path="/signup" element={<Signup />} />

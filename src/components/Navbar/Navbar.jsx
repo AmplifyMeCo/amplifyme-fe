@@ -14,11 +14,11 @@ const Navbar = () => {
             <h1>AmplifyMe</h1>
         </div>
         <ul>
-            <li><HomeIcon /> </li>
-            <li><AddCircleIcon /> </li>
-            <li><MailIcon /></li>
-            <li><NotificationsIcon /> </li>
-            <li><AccountCircleIcon /></li>
+            <li><HomeIcon style={{ fill: 'gray' }} /> </li>
+            <li><AddCircleIcon style={{ fill: 'gray' }}  /> </li>
+            <li><MailIcon style={{ fill: 'gray' }} /></li>
+            <li><NotificationsIcon style={{ fill: 'gray' }} /> </li>
+            <li><AccountCircleIcon style={{ fill: 'gray' }} /></li>
         </ul>
     </nav>      
 );
