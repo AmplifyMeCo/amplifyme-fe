@@ -11,14 +11,14 @@ const Feed = () => {
               <div className="icon">
                   <img className="avatar" src={avatar} alt="" />
               </div>
-              <span><strong>User</strong></span>
+              <span>strongUser</span>
           </div>
           <div className="post-vid">
               <video  className="video"src={video} controls></video>
           </div>
           <div className="post-desc">
               <div className="desc">
-                  <span><strong>User </strong></span>
+                  <span>User </span>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus maiores nisi, quas laudantium ea voluptatum dignissimos officiis cumque et eos incidunt eveniet commodi harum repellendus quod modi quasi vel quis?
               </div>
           </div>

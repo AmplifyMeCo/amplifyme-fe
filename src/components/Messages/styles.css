@@ -21,6 +21,10 @@
     flex: 4;
     height: 100vh;
 }
+
+#logo {
+    color: #5f2c82;
+}
 #send-message {
     color: white;
     font-size: 24px;
@@ -53,6 +57,7 @@
 .message {
     display: flex;
     flex-direction: column;
+    width: 90%;
     align-items: center;
     justify-content:center;
 
@@ -75,6 +80,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
 }
 .username {
     display: flex;
@@ -93,7 +100,7 @@
 .message-container:hover {
     border-bottom: 1px solid lightgrey;
     color: white;
-    background:  linear-gradient(to right, #5f2c82, #49a09d);
+    background-image: linear-gradient(45deg, #5f2c82, #49a09d);
     opacity: 100%;
     cursor: pointer;
     min-height:  100px;
