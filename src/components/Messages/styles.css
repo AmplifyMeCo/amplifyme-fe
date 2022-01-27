@@ -1,0 +1,112 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    border-top: linear-gradient(to right, #5f2c82, #49a09d);
+    background-color: white;
+    flex: 2;
+    height: 100vh;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background: linear-gradient(to right, #5f2c82, #49a09d); 
+    flex: 4;
+    height: 100vh;
+}
+#send-message {
+    color: white;
+    font-size: 24px;
+}
+.write-message {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    background-color: #49a09d;
+    opacity: 90%;
+    z-index: 150;
+    align-items: center;
+    min-height:  75px;
+    max-height: 100px;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+.send-message-icon {
+    display: flex;
+    justify-content:center;
+
+    padding: 50px;
+    border-radius: 50%;
+    transform: rotate(-45deg);
+    justify-content:center;
+    color: white;
+}
+.message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+
+}
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.send-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.write-icon {
+    padding: 20px;
+}
+.user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.username {
+    display: flex;
+    justify-content:center;
+}
+.write-icon {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.message-container {
+    border-bottom: 1px solid lightgrey;
+    min-height:  100px;
+    max-height: 100px;
+}
+.message-container:hover {
+    border-bottom: 1px solid lightgrey;
+    color: white;
+    background:  linear-gradient(to right, #5f2c82, #49a09d);
+    opacity: 100%;
+    cursor: pointer;
+    min-height:  100px;
+    max-height: 100px;
+}
+
+.user-message {
+    padding: 10px;
+}
+
+#message-btn {
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    background-color: transparent;
+}
