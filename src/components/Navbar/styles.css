@@ -14,7 +14,15 @@ nav {
     justify-content: flex-start;
 }
 h1 {
-    font-size: 32px;
+    font-size: 48px;
+    font-family: 'Shadows Into Light', cursive;
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #5f2c82, #49a09d);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
 }
 ul {
     display: flex;
@@ -27,3 +35,79 @@ ul {
     padding: 20px;
     cursor: pointer;
 }
+
+.modal-card {
+    z-index: 1000;
+    border-radius: 20px;
+    min-width: 500px;
+    min-height: 600px;
+    max-width: 600px;
+    max-height: 500px;
+    position: fixed;
+    background-color: white;
+    border: 4px solid #13a89e;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal-header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #13a89e;
+}
+
+.modal-title {
+    display: flex;
+    justify-content: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-body {
+    display: flex;
+    margin-top: 150px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 15px;
+}
+.input {
+    color: transparent;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  .custom-file-input::before {
+    content: 'Select some files';
+    display: inline-block;
+    background: linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 10pt;
+  }
+  .custom-file-input:hover::before {
+    border-color: black;
+  }
+  .custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+  }

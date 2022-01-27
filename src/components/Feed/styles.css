@@ -4,26 +4,39 @@
 
 .post-user {
     display: flex;
+    font-family: 'Hind', sans-serif;
+    font-weight: bold;
     align-items: center;
     background-color: white;
     border-bottom: none;
-    width: 500px;
+    width: 600px;
     height: 60px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-
+span {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 24px;
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #5f2c82, #49a09d);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
 .post-vid {
     height: 500px;
-    width: 500px;
+    width: 600px;
     object-fit: contain;
     border-bottom: none;
 }
 
 .post-desc {
     background-color: white;
-    height: 100px;
-    width: 500px;
+    height: 125px;
+    width: 600px;
+    font-family: 'Hind', sans-serif;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -40,6 +53,6 @@
 
 video {
     object-fit: cover;
-    width: 500px;
+    width: 600px;
     height: 500px;
 }
