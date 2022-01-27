@@ -22,7 +22,7 @@ ul {
     margin-right: 100px;
     justify-content: flex-end;
 }
-li {
+.li {
     display: flex;
     padding: 20px;
     cursor: pointer;

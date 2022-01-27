@@ -1,4 +1,6 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
+
 import HomeIcon from '@mui/icons-material/Home';
 import AddCircleIcon from '@mui/icons-material/AddCircle';
 import MailIcon from '@mui/icons-material/Mail';
@@ -14,11 +16,11 @@ const Navbar = () => {
             <h1>AmplifyMe</h1>
         </div>
         <ul>
-            <li><HomeIcon style={{ fill: 'gray' }} /> </li>
-            <li><AddCircleIcon style={{ fill: 'gray' }}  /> </li>
-            <li><MailIcon style={{ fill: 'gray' }} /></li>
-            <li><NotificationsIcon style={{ fill: 'gray' }} /> </li>
-            <li><AccountCircleIcon style={{ fill: 'gray' }} /></li>
+            <NavLink to="/" className="li"><HomeIcon style={{ fill: 'gray' }} /> </NavLink>
+            <NavLink to="/" className="li"> <AddCircleIcon style={{ fill: 'gray' }}  /> </NavLink>
+            <NavLink to="/messages" className="li"> <MailIcon  style={{ fill: 'gray' }} /></NavLink>
+            <NavLink to="/" className="li"><NotificationsIcon style={{ fill: 'gray' }} /> </NavLink>
+            <NavLink to="/" className="li"><AccountCircleIcon style={{ fill: 'gray' }} /></NavLink>
         </ul>
     </nav>      
 );
